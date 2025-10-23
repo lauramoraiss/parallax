@@ -1,10 +1,75 @@
-body {
-    font-family: Arial;
-    background-color: #d9d9d9;
-    width: 100%;
-    margin: 0px;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
 }
 
-img.1 {
-    background:
+.img-natureza {
+    background-image: url('../assets/natureza.jpg');
+    width: 98%;        
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 auto;
+    background-attachment: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+    }
+
+.img-praia {
+    background-image: url('../assets/praia.jpg');
+    width:98%;
+    height: 350px;
+    background-size: cover;
+    margin: 0 auto;
+    background-attachment:fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-montanha {
+    background-image: url('../assets/montanha.jpg');
+    width:98%;
+    height: 350px;
+    background-size: cover;
+    margin: 0 auto;
+    background-attachment:fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.img-floresta {
+    background-image: url('../assets/floresta.jpg');
+    width: 98%;
+    height:350px;
+    background-size: cover;
+    margin: 0 auto;
+    background-attachment: fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.texto1 {
+    color: black;
+    border:  white;
+    padding: 20px 40px;
+    border: 2px solid white;
+    padding: 20px 40px;
+    text-align: center;
+    letter-spacing: 3px;
+  
+    
+}
+ h1{
+    color: white;
+    border: 2px solid white;
+    padding: 20px 40px;
+    text-align: center; 
 }
